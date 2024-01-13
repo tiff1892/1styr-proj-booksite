@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<!--
+		Just practicing for my website
+		Author: TRA
+		Date: 02-15-2019
+		-->
+		<meta charset="utf-8" />
+		<title>Gallery</title>
+		<link href="bgh_layout.css" rel="stylesheet" />
+		<link href="bgh_styles.css" rel="stylesheet" />
+	</head>
+<style>
+
+h2 {
+	color: blue;
+	font-variant: small-caps;
+}
+
+.grid {
+  display: grid;
+  flex: 25%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: stretch;
+  justify-items: center;
+  }
+
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 90%;
+}
+
+.btn {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 30px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+	/*display: flex; // Stack buttons vertically */
+  flex-direction: column;
+	margin: 5px;
+}
+
+.btn:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.btn:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+</style>
+<body>
+
+		<header><center><h1>Gallery</h1></center></header><hr>
+
+		<div style="text-align: center;">
+		<h2>GIFS</h2>
+
+		<img id ="gif" src="benedict.gif" style="width:600" style="height:300"><br><br>
+		<h2>Click the Buttons Below to Change Gifs</h2>
+			<button class="btn" type="button" onclick = "document.getElementById('gif').src='nicorobin.gif'">Nico Robin of One Piece</button><br>
+			<button class="btn" type="button" onclick = "document.getElementById('gif').src='sheldon.gif'">Sheldon Cooper of The Big Bang Theory</button><br>
+			<button class="btn" type="button" onclick = "document.getElementById('gif').src='adam.gif'">Adam Levine of Maroon 5</button><br>
+			<button class="btn" type="button" onclick = "document.getElementById('gif').src='bean.gif'">Mr. Bean</button><br>
+			<button class="btn" type="button" onclick = "document.getElementById('gif').src='emma.gif'">Belle of Beauty and the Beast</button><br>
+			<button class="btn" type="button" onclick = "document.getElementById('gif').src='kakashi.gif'">Hatake Kakashi of Naruto</button><br>
+			<button class="btn"  type="button" onclick = "document.getElementById('gif').src='benedict.gif'"> Back to Benedict Cumberbatch (Actor)</button><br><br><br>
+
+		</div>
+
+
+		<center>
+			<h2>PICTURES</h2>
+<div class="grid">
+  <img src="marvel.png" alt="Marvel Comic Books" width="350" height="350">
+  <img src="hp.png" alt="Harry Potter" width="350" height="350">
+  <img src="op.png" alt="One Piece" width="350" height="350">
+  <img src="pjo.png" alt="Percy Jackson" width="350" height="350">
+  <img src="sherl.png" alt="Sherlock Holmes" width="350" height="350">
+  <img src="tmr.png" alt="The Maze Runner" width="350" height="350">
+  <img src="got.png" alt="Game of Thrones" width="350" height="350">
+  <img src="thg.png" alt="The Hunger Games" width="350" height="350">
+  <img src="rpo.png" alt="Ready Player One" width="350" height="350">
+  <img src="narnia.png" alt="The Chronicles of Narnia" width="350" height="350">
+  <img src="lotr.png" alt="Lord of the Rings" width="350" height="350">
+  <img src="note.png" alt="The Notebook" width="350" height="350"><br><br>
+</div>
+</center>
+
+<center>
+<h2>VIDEOS</h2>
+<h2>Big Bad Wolf Book Sale in Manila 2019</h2></center>
+
+<center>
+<video width="640" height="360" frameborder="0" allowfullscreen controls>
+	<source src="bbw.mp4" type="video/mp4" >
+</video>
+</center><br><br>
+
+<center><h2>Benefits of Reading</h2></center>
+
+<center>
+<video width="640" height="360" frameborder="0" allowfullscreen controls>
+	<source src="ben.mp4" type="video/mp4" >
+</video>
+
+<h3><strong><nav><a href="index.html">Go Back To The Home Page</a></nav></center></strong></h3>
+</center>
+</body>
+</html>

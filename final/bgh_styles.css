@@ -1,0 +1,170 @@
+
+@charset "utf-8";
+
+/*
+	Bookworm's Geek Hideout
+	First Website
+
+	Layout Styles for Bookworm's Geek Hideout
+	Author: Tiffany Rose Alimusa
+	Date: 02-16-2019
+
+	filename: bgh_styles.css
+*/
+
+/* Structural Styles */
+
+html {
+	background-color: hsl(100%, 100%, 100%);}
+
+li {
+  position: relative;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul#home { 
+  padding: 10px 10px; 
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  text-shadow: black -4px -3px 5px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+	font-family: Candara, Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-variant: small-caps;
+}
+
+ul#books p{
+	font-size: 1.5em;
+}
+
+ul#books li {
+	font-size: 1.5em;
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+	font-family: Garamond, Book Antiqua, Rockwell, Palatino, Candara, Perpetua, Verdana, sans-serif;
+	font-size: 16px;
+	background-image: url("4.png");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+header {	
+	font-family: Candara, Papyrus,  Rockwell, Verdana, sans-serif;
+	color: white;
+	text-shadow: black -3px -2px 4px;
+	font-size: 1.5em;
+}
+
+p {
+	margin: 0px;
+	padding: 5px 25px 25px 25px;
+}
+
+ol > p {
+	font-size: 1.5em;
+	font-align: center;
+}
+	
+body > p {
+	font-size: 1.5em;
+	font-align: center;
+}
+body > article {
+	font-align: center;
+	font-size: 1.5em;
+}
+article {
+	font-size: 1.5em;
+	font-align: center;
+}
+
+/* Navigation Styles */
+
+nav a {
+	font-family: Candara, Papyrus,  Rockwell, Verdana, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: rgb(0, 0, 255);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(0, 0, 255);
+	text-decoration: none;
+}
+
+nav a:link {
+	color: rgb(0, 0, 255);
+	text-decoration: none;
+}
+
+a:link {
+	color: rgb(0, 0, 255);
+	text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+	color: rgb(0, 206, 209);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(0, 206, 209);
+	text-decoration: none;
+}
+
+a:active {
+	color: rgb(0, 206, 209);
+	text-decoration: none;
+}
+
+nav > ul {
+	list-style-type: none;
+}	
+
+ul > a {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	text-decoration: none;
+}	
+
+/* Quotes About Books */
+
+ul#quotes li p {
+	font-size: 1.2em;
+	color: black;
+	line-height: 1em;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+/* Footer Styles */
+
+footer {
+	clear: both;
+	font: 1em/3em Quicksand, Verdana, Geneva, sans-serif;
+	font-variant: small-caps;
+}
