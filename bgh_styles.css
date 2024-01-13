@@ -39,6 +39,12 @@ h2 {
 	font-size: 1.8em;
 }
 
+h3 {
+	font-size: 1.6em;
+	font-family: Candara, Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-variant: small-caps;
+}
+
 ul#books p{
 	font-size: 1.5em;
 }
@@ -155,6 +161,10 @@ ul#quotes li p {
 	text-decoration: none;
 }
 
+/* Footer Styles */
+
 footer {
 	clear: both;
+	font: 1em/3em Quicksand, Verdana, Geneva, sans-serif;
+	font-variant: small-caps;
 }
